@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #0d0d0d; /* Midnight background */
+    color: #ffffff; /* White text */
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.box {
+    background: #1a1a1a; /* Dark grey background for boxes */
+    border-radius: 15px; /* Rounded corners */
+    padding: 20px 40px;
+    text-align: center;
+    font-size: 24px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+    transition: transform 0.3s, background 0.3s;
+}
+
+.box:hover {
+    background: #333333; /* Slightly lighter on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
